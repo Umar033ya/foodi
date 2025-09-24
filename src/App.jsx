@@ -1,5 +1,7 @@
 import './App.css'
 import logo from '../public/logo.png'
+import btnvector from '../public/bottonVecto.png'
+import seachIcon from '../public/🦆 icon _search_.png'
 
 function App() {
 
@@ -25,13 +27,13 @@ function App() {
             <img src={logo} alt="" />
             <ul>
               <li>Home</li>
-              <li>Menu <img src="/public/bottonVecto.png" alt="" /></li>
-              <li>Services <img src="/public/bottonVecto.png" alt="" /></li>
+              <li>Menu <img src={btnvector} alt="" /></li>
+              <li>Services <img src={btnvector} alt="" /></li>
               <li>Offers</li>
             </ul>
             <div className="nav__end">
               <input className='searchInput' placeholder='Search...' type="search" />
-              <button onClick={clickInpiit} className='searchIcon'><img src="/public/🦆 icon _search_.png" alt="" /></button>
+              <button onClick={clickInpiit} className='searchIcon'><img src={seachIcon} alt="" /></button>
               <button className='call'><i class="fa-solid fa-phone-volume"></i>Contact</button>
             </div>
           </nav>
