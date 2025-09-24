@@ -12,6 +12,10 @@ import juice from '../public/juice.png'
 import firstsalat from '../public/firstsalat.png'
 import secondsalat from '../public/secondsalad.png'
 import eggsalad from '../public/Egg salad.png'
+import maskgroup from '../public/Mask group.png'
+import maskgroup1 from '../public/Mask group (1).png'
+import maskgroup2 from '../public/Mask group (2).png'
+import maskgroup3 from '../public/Mask group (3).png'
 
 function App() {
 
@@ -157,7 +161,7 @@ function App() {
       <div className="container">
         <div className="testimonials">
           <div className="chef">
-            <img src="/public/Mask group.png" alt="Chef" />
+            <img src={maskgroup} alt="Chef" />
           </div>
           <div className="testimonial-text">
             <h4>TESTIMONIALS</h4>
@@ -169,9 +173,9 @@ function App() {
             </p>
             <div className="feedback">
               <div className="avatars">
-                <img src="/public/Mask group (3).png" alt="user" />
-                <img src="/public/Mask group (2).png" alt="user" />
-                <img src="/public/Mask group (1).png" alt="user" />
+                <img src={maskgroup3} alt="user" />
+                <img src={maskgroup2} alt="user" />
+                <img src={maskgroup1} alt="user" />
               </div>
               <span>⭐ 4.9 (18.6k Reviews)</span>
             </div>
@@ -213,7 +217,7 @@ function App() {
       </main>
       <footer>
   <div className="footer-top">
-    <h2><img src="/public/logo.png" alt="" /></h2>
+    <h2><img src={logo} alt="" /></h2>
     <p>Savor the artistry where every dish is a culinary masterpiece</p>
   </div>
 
