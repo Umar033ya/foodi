@@ -1,4 +1,5 @@
 import './App.css'
+import logo from '../public/logo.png'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
       <header>
         <div className="container">
           <nav>
-            <img src="/public/logo.png" alt="" />
+            <img src={logo} alt="" />
             <ul>
               <li>Home</li>
               <li>Menu <img src="/public/bottonVecto.png" alt="" /></li>
