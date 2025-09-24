@@ -2,6 +2,9 @@ import './App.css'
 import logo from '../public/logo.png'
 import btnvector from '../public/bottonVecto.png'
 import seachIcon from '../public/🦆 icon _search_.png'
+import puplic from '../public/Polygon 1.png'
+import personimg from '../public/person.png'
+import group15 from '../public/Group 15.png'
 
 function App() {
 
@@ -48,12 +51,12 @@ function App() {
               <div className="btnParent">
                 <button>Order Now</button>
                 <button><a href="https://www.youtube.com/shorts/zPxQjuFoUBc?feature=share">Watch Video</a></button>
-                <button><img src="/public/Polygon 1.png" alt="" /></button>
+                <button><img src={puplic} alt="" /></button>
               </div>
             </div>
             <div  className="section__end">
-              <img src="/public/person.png" alt="" />
-              <img src="/public/Group 15.png" alt="" />
+              <img src={personimg} alt="" />
+              <img src={group15} alt="" />
             </div>
           </section>
           <section className='section1'>
