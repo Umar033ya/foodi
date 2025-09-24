@@ -5,6 +5,13 @@ import seachIcon from '../public/🦆 icon _search_.png'
 import puplic from '../public/Polygon 1.png'
 import personimg from '../public/person.png'
 import group15 from '../public/Group 15.png'
+import burger from '../public/burger.png'
+import sandwich from '../public/sandwich.png'
+import icecream from '../public/icecream.png'
+import juice from '../public/juice.png'
+import firstsalat from '../public/firstsalat.png'
+import secondsalat from '../public/secondsalad.png'
+import eggsalad from '../public/Egg salad.png'
 
 function App() {
 
@@ -67,28 +74,28 @@ function App() {
             <div className="cards">
               <div className="card">
                 <div className="bg">
-                  <img src="/public/burger.png" alt="" />
+                  <img src={burger} alt="" />
                 </div>
                 <h3>Main Dish</h3>
                 <p>(86 dishes)</p>
               </div>
               <div className="card">
                 <div className="bg">
-                  <img src="/public/sandwich.png" alt="" />
+                  <img src={sandwich} alt="" />
                 </div>
                 <h3>Break Fast</h3>
                 <p>(12 break fast)</p>
               </div>
               <div className="card">
                 <div className="bg">
-                  <img src="/public/icecream.png" alt="" />
+                  <img src={icecream} alt="" />
                 </div>
                 <h3>Dessert</h3>
                 <p>(48 dessert)</p>
               </div>
               <div className="card">
                 <div className="bg">
-                  <img src="/public/juice.png" alt="" />
+                  <img src={juice} alt="" />
                 </div>
                 <h3>Browse All</h3>
                 <p>(255 Items)</p>
@@ -109,7 +116,7 @@ function App() {
                 <div className="love">
                 <i onClick={love} class="fa-regular fa-heart"></i>
                 </div>
-                <img src="/public/firstsalat.png" alt="" />
+                <img src={firstsalat} alt="" />
                 <h2>Fattoush salad</h2>
                 <p>Description of the item</p>
                 <div className="stars">
@@ -121,7 +128,7 @@ function App() {
                 <div className="love">
                 <i onClick={love} class="fa-regular fa-heart"></i>
                 </div>
-                <img src="/public/secondsalad.png" alt="" />
+                <img src={secondsalat} alt="" />
                 <h2>Vegetable salad</h2>
                 <p>Description of the item</p>
                 <div className="stars">
@@ -133,7 +140,7 @@ function App() {
                 <div className="love">
                 <i onClick={love} class="fa-regular fa-heart"></i>
                 </div>
-                <img src="/public/Egg salad.png" alt="" />
+                <img src={eggsalad} alt="" />
                 <h2>Egg vegi salad</h2>
                 <p>Description of the item</p>
                 <div className="stars">
